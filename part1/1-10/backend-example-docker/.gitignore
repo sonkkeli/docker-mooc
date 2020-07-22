@@ -60,7 +60,7 @@ typings/
 # next.js build output
 .next
 
-logs.txt
+# logs.txt
 
 # Don't want to spoil the exercise solutions
-Dockerfile*
+# Dockerfile*
