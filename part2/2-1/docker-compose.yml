@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  volumes-exercise:
+    image: devopsdockeruh/first_volume_exercise
+    volumes:
+      - type: bind
+        source: ./logs.txt
+        target: /usr/app/logs.txt
