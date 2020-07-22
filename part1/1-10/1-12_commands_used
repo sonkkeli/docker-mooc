@@ -1,0 +1,7 @@
+# run the build command inside frontend-example-docker directory
+docker build -t sonja/frontend .
+docker run -p 5000:5000 -d sonja/frontend
+
+# run the build command inside backedn-example-docker directory
+docker build -t sonja/backend .
+docker run -v $(pwd)/logs.txt:/usr/src/app/logs.txt -p 8000:8000 -d sonja/backend
