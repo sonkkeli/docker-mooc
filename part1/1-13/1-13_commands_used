@@ -1,3 +1,3 @@
-# run the build command inside spring-example-docker directory
+# run the build command inside spring-example-project directory
 docker build -t sonja/spring .
 docker run -p 8080:8080 -d sonja/spring
