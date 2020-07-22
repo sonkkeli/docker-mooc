@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./frontend-example-docker
+    container_name: sonja-frontend
+    ports:
+      - 5000:5000
+  backend:
+    build: ./backend-example-docker
+    container_name: sonja-backend
+    ports:
+      - 8000:8000
