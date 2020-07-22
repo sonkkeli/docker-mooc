@@ -1,1 +1,10 @@
 https://docker-heroku-exercise.herokuapp.com/
+
+# Steps to run dockerized web app image in heroku
+
+# docker pull {IMAGE_NAME}
+# docker tag {IMAGE_NAME} registry.heroku.com/{HEROKU_APP_NAME}/web
+
+# heroku container:login
+# docker push registry.heroku.com/{HEROKU_APP_NAME}/web
+# heroku container:release web -a {HEROKU_APP_NAME}
