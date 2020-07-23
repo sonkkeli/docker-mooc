@@ -1,0 +1,4 @@
+sonja@sonja ubuntu-packages-viewer % docker images                                      
+REPOSITORY                                       TAG                     IMAGE ID            CREATED             SIZE
+ubuntu-packages-viewer-slim                      latest                  317f62d5d334        28 seconds ago      286MB
+sonkkeli/ubuntu-packages-viewer                  latest                  e3a2bbcbb659        26 hours ago        770MB
