@@ -1,0 +1,16 @@
+Login to Circle CI with your github user. 
+
+I updated my old application (which was previously just on 
+every git commit doing a heroku update) to use the CircleCI.
+
+Add the CircleCI config.yml file with heroku orbs (view config.yml)
+
+Add environment variables in CircleCI from: 
+Project Settings -> Environment Variables.
+
+Needed envs were:
+HEROKU_API_KEY=XXX
+HEROKU_APP_NAME=ubuntu-package-viewer
+
+Wait for the deployment process to finish and view application here:
+https://ubuntu-package-viewer.herokuapp.com/api/packages
