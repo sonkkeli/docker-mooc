@@ -1,0 +1,6 @@
+sonja@sonja 2-3 % docker images                                                   
+REPOSITORY                                       TAG                     IMAGE ID            CREATED             SIZE
+sonja-backend-optimized                          latest                  31d1ea5c1d66        4 seconds ago       313MB
+sonja-frontend-optimized                         latest                  aadde1bac259        3 minutes ago       489MB
+sonja-backend                                    latest                  b9ea04295d54        10 minutes ago      948MB
+sonja-frontend                                   latest                  d6d5d5d39ae4        11 minutes ago      1.12GB
