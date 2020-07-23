@@ -1,0 +1,6 @@
+# With the build-stages added the image got squeezed from 296MBs to 93MBs.
+
+sonja@sonja 2-3 % docker images                                                 
+REPOSITORY                                       TAG                     IMAGE ID            CREATED              SIZE
+frontend-build-stage                             latest                  9178815713b7        59 seconds ago       93MB
+frontend-alpine                                  latest                  1f7c6446c12a        37 minutes ago       296MB
