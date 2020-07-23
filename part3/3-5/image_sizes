@@ -1,0 +1,6 @@
+sonja@sonja backend-example-docker % docker images                   
+REPOSITORY                                       TAG                     IMAGE ID            CREATED             SIZE
+backend-alpine                                   latest                  b34a53ed0c16        11 seconds ago      120MB
+frontend-alpine                                  latest                  1f7c6446c12a        2 minutes ago       296MB
+sonja-backend-optimized                          latest                  31d1ea5c1d66        3 hours ago         313MB
+sonja-frontend-optimized                         latest                  aadde1bac259        3 hours ago         489MB
